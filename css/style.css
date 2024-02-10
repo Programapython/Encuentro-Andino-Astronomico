@@ -433,7 +433,8 @@ bottom: -30px;
 }
 
 .item_introtext {
-    background-color: rgba(254, 254, 255, 0.66);
+    background-color: transparent;
+	/* rgba(254, 254, 255, 0.66) */
     margin: 0 auto;
     display: inline-block;
     padding: 25px;
@@ -572,13 +573,13 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background: #54726c;
+	background: #9749a7;
 	position:relative;
 	margin:0;
 	padding:0;
-	color:#fefefe;
+	color:#ee1616;
 	/* margin: 15px; */
-	border-top: 10px solid #54726c;
+	border-top: 10px solid #ad50c0;
 }
 
 
@@ -1003,7 +1004,7 @@ ul.link-list li{
 	list-style:none;
 }
 footer{
-background: #524d09;
+background: #a775c4;
 }
 footer ul.link-list li a{
 	color: #FFFFFF;
