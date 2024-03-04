@@ -79,8 +79,10 @@ header .navbar {
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
-    margin-top: 13px;
-    padding: 0 0 0 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 100%;
 }
 .navbar-default .navbar-brand{
 color: #e2c624;
@@ -1552,19 +1554,14 @@ article img.pull-right, article .align-right{
     padding-right: 0;
     padding-left: 0;
   }
-	.navbar-brand {
-		margin-top: 10px;
-		border-bottom: none;
+  .navbar-brand {
+	border-bottom: none;
 	}
-	.navbar-header {
-		margin-top: 20px;
-		border-bottom: none;
-	}
-	
 	.navbar-nav {
 		border-top: none;
 		float: none;
 		width: 100%;
+		align-items: center;
 	}
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover {
 background: none;

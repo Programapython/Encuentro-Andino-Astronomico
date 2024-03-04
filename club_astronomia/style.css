@@ -1,0 +1,26 @@
+$thick : 3px;
+$pad : 0.7em;
+$extra : calc(#{$pad} * 1.2);
+$color : #f26522;
+
+body{
+    background: linear-gradient(60deg, #433055, #8b74a0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0px 0 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.principal{
+    width: 100%;
+    height: 610px;
+    display: block;
+    text-align: center;
+}
+.logo{
+    position: relative;
+    top:100px;
+    zoom:0.5;
+}
