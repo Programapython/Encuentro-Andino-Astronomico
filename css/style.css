@@ -188,7 +188,7 @@ header .nav li .dropdown-menu li a {
    padding: 3px 12px;
 }
 .item-thumbs img {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 .flex-control-paging li a.flex-active {
     background: #000;
@@ -752,7 +752,7 @@ form#commentform textarea {
 .item-thumbs {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	cursor: pointer;
 }
 
@@ -796,7 +796,7 @@ form#commentform textarea {
 .item-thumbs .hover-wrap .overlay-img {
 	position: absolute;
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	opacity: 0.50;
 	filter: alpha(opacity=80);
 	background: #eca8ee;
