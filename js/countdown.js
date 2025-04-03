@@ -4,7 +4,7 @@ const minutes=document.querySelector(".minutes");
 const seconds=document.querySelector(".seconds");
 
 //Date:
-const dateCompare = new Date("Apr 20, 2024 00:00:00").getTime();
+const dateCompare = new Date("Aug 29, 2025 00:00:00").getTime();
 
 //const dateCompare = new Date("Mar 4, 2024 21:44:00").getTime();
 //console.log(dateCompare);
