@@ -426,7 +426,7 @@ bottom: -30px;
 }
 .team-member {
     text-align: center;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
     padding-bottom: 15px;
 }
 .fancybox-title-inside-wrap {
@@ -1781,6 +1781,8 @@ padding-top: 2px;
 	color: #dedede;
 	width: 100px;
 	height: 100px;
+	/*width: 100%;*/
+	/*height: 90%;*/
 	display: grid;
 	place-items: center;
 	border-radius: 10px;
