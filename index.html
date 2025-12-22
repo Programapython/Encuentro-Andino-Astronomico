@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Encuentro Andino Astronómico Cascas 2025</title>
+<title id="name_page"></title> <!-- Encuentro Andino Astronómico {ciudad} {año} -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="" />
@@ -56,16 +56,16 @@
                 <img src="img/slides/1.jpg" alt="" />
                 <div class="flex-caption">
                    <div class="item_introtext"> 
-					<strong>SEGUNDO ENCUENTRO ANDINO ASTRONÓMICO</strong>
-					<p>CASCAS 2025</p> </div>
+					<strong class = "title"></strong> <!-- ${EDICIÓN} ENCUENTRO ANDINO ASTRONÓMICO -->
+					<p class = "subtitle"></p> </div> <!-- ${CIUDAD} {AÑO} -->
                 </div>
               </li>
               <li>
                 <img src="img/slides/2.jpg" alt="" />
                 <div class="flex-caption">
                      <div class="item_introtext"> 
-					<strong>SEGUNDO ENCUENTRO ANDINO ASTRONÓMICO</strong>
-					<p>CASCAS 2025</p> </div>
+					<strong class = "title"></strong> <!-- ${EDICIÓN} ENCUENTRO ANDINO ASTRONÓMICO -->
+					<p class = "subtitle"></p> </div> <!-- ${CIUDAD} ${AÑO} -->
                 </div>
               </li>
             </ul>
@@ -77,20 +77,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="aligncenter"><h1 class="aligncenter">Descubre el universo con nosotros</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
-
-					¡Bienvenido(a) al segundo Encuentro Andino Astronómico Cascas 2025, Prepárate para embarcarte en un viaje emocionante a través del cosmos mientras exploramos los misterios del universo. Este evento está diseñado para entusiastas de todas las edades y niveles de experiencia en astronomía.
-					
-					Únete a nosotros para una serie de fascinantes charlas y presentaciones impartidas por expertos en el campo, donde descubrirás los secretos de las estrellas, los planetas, las galaxias y más. Desde la astrofísica hasta la exploración espacial, nuestro programa ofrece una amplia gama de temas que te dejarán maravillado.
-					
-					Además de las conferencias, tendrás la oportunidad de observar el cielo nocturno a través de nuestros telescopios.
-					
-					No importa si eres un principiante curioso o un aficionado experimentado, ¡hay algo para todos en nuestro evento de Astronomía! Únete a nosotros y déjate inspirar por la belleza y el asombro del universo.
+				<div class="aligncenter">
+					<h1 class="aligncenter">Descubre el universo con nosotros</h1>
+					<span class="clear spacer_responsive_hide_mobile" style="height:13px;display:block;"></span>
+					<div id="content1"></div>
 				</div>
 				<br/>
 				<hr>
 				<br/>
-				
+				<!--
 				<h3 class="alignleft">TIEMPO RESTANTE PARA EL EVENTO</h3>
 				<div class="aligncenter"><span class="clear spacer_responsive_hide_mobile " style="height:5%;display:block;"></span>
 					<div class="countdown">
@@ -112,10 +107,10 @@
 						</div>
 					</div>
 				</div>
-
 				<br/>
 				<hr>
 				<br/>
+				-->
 
 				<!-- <div class="aligncenter" style="background-color: rgb(32, 32, 32);">
 					<br/>
@@ -152,6 +147,18 @@
 				<br/>
 				<br/>
 
+				<h3 class="alignleft">PATROCINADORES</h3>
+
+				<br/>
+				<div class="aligncenter">
+					<img src="img/patrocinadores/patrocinador1.jpg" style="width: 13%; margin-right: 5%; margin-left: 5%;" alt="" />
+					<img src="img/patrocinadores/patrocinador2.jpg" style="width: 13%; margin-right: 5%; margin-left: 5%;" alt="" />
+					<img src="img/patrocinadores/patrocinador3.jpg" style="width: 13%; margin-right: 5%; margin-left: 5%;" alt="" />
+				</div>
+
+				<br/>
+				<br/>
+
 				<h3 class="alignleft">ORGANIZADORES</h3>
 
 				<br/>
@@ -160,6 +167,7 @@
 					<img src="img/organizers/organizer2.jpg" style="width: 13%;" alt="" />
 					<img src="img/organizers/organizer3.jpg" style="width: 13%;" alt="" />
 					<img src="img/organizers/organizer4.jpg" style="width: 13%;" alt="" />
+					<img src="img/organizers/organizer5_v2.jpg" style="width: 26%;" alt="" />
 				</div>
 				
 				<br/>
@@ -169,7 +177,7 @@
 				<h3 class="alignleft">LUGAR DEL EVENTO</h3>
 				<div class="aligncenter"><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
 					<div>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4704.354980083023!2d-78.82035659783402!3d-7.479026620094792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b2854333b9fe15%3A0x7575561a25ef0220!2sPlaza%20de%20Armas%20de%20Cascas!5e0!3m2!1ses!2spe!4v1740889861702!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31689.776714649477!2d-78.16360503425864!3d-6.863967260602221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b3cdd3fb992987%3A0xba5c730411e00008!2zQ2VsZW5kw61u!5e0!3m2!1ses!2spe!4v1766439522699!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 
@@ -381,8 +389,8 @@
 	</footer>
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
+<!-- javascript -->
+<!-- ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
@@ -396,5 +404,6 @@
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
 <script src="js/countdown.js"></script>
+<script src="js/replace_var.js"></script>
 </body>
 </html>
